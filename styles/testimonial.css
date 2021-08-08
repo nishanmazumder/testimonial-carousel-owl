@@ -1,0 +1,135 @@
+/* Owl Carousel
+Designer: Nishan M
+Designer url: https://bdsoftcreation.com/
+*/
+
+.nm_testimonial_area{
+    background: #ECEFEF;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.nm_owl_space{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nm_testimonial_data{
+    background: #fff;
+    border-radius: 10px;
+}
+.nm_img{
+    width: 100%;
+    height: 150px;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.nm_testimonial_details{
+    padding: 15px;
+}
+.nm_testimonial_details h4{
+    font-size: 20px;
+}
+.nm_testimonial_details p{
+    line-height: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.nm_testimonial_details a{
+    border: 1px solid #4771CC;
+    color: #4771CC;
+    cursor: pointer !important;
+    padding: 8px 15px;
+}
+
+.nm_testimonial_details a:hover{
+    background: #4771CC;
+}
+
+/* Rating */
+.nm_img_round{
+    width: 45%;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+/* .nm_testimonial_rating_area{} */
+.nm_testimonial_rating_area{
+    text-align: center;
+}
+.nm_testimonial_rating_area .nm_testimonial_data{
+    padding: 15px 0px 10px;
+}
+.nm_testimonial_rating_area i{
+    color: #4771CC;
+}
+.nm_testimonial_quote i{
+    font-size: 24px;
+}
+.nm_testimonial_rating{
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.nm_testimonial_rating li{
+    display: inline-block;
+}
+
+.nm_testimonial_rating_area h4{
+    margin-bottom: 0;
+}
+
+.nm_testimonial_rating_area span{
+    font-size: 14px;
+}
+
+.nm_testimonial_rating_area .nm_testimonial_details{
+    padding: 0px 10px 10px;
+}
+
+/* Navigation */
+.nm_carousel_nav{
+    position: absolute;
+    z-index: 10 !important;
+    top: 55%;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+.nm_carousel_nav i{
+    color: #4873CC;
+    font-size: 20px;
+}
+.nm_owl_nxt{
+    position: absolute;
+    left: 5px;
+}
+.nm_owl_prv{
+    position: absolute;
+    right: 5px;
+}
+
+@media only screen and (max-width:780px) {
+    .nm_img_round{
+        height: 90px;
+    }
+}
+
+/* @media only screen and (max-width:600px) {
+    .nm_img_round{
+        height: 115px;
+    }
+} */
+
+@media only screen and (max-width:420px) {
+    .nm_img_round{
+        height: 130px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .nm_img_round{
+        height: 115px;
+    }
+}
